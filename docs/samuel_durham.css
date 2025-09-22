@@ -16,8 +16,10 @@
   /*Rounding*/
   --radius: 12px
 }
-
+/*
 main   { max-width: var(--page-width); margin: 0 auto; padding: var(--space-2); }
+*/
+img{border: var(--space-1) solid color:var(--olive-green)}
 
 body
 { 
