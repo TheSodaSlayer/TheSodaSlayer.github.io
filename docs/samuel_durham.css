@@ -7,12 +7,18 @@
   --highlight:  rgba(160, 60, 160, .4);
   --ink: black;             /* text color */  
   --paper: white;           /* page background */
-  --space-2: 3rem;         /* spacing scale */
+  --page-width: 60ch;
+  --space-1: 0.5rem;
+  --space-2: 1rem;         /* spacing scale */
+  --space-3: 2rem;
   
   
   /*Rounding*/
   --radius: 12px
 }
+
+main   { max-width: var(--page-width); margin: 0 auto; padding: var(--space-2); }
+
 body
 { 
   color: var(--ink); 
